@@ -11,8 +11,9 @@ DorokDork adalah alat Google Mass Dorker yang dikembangkan menggunakan Python3 u
 Sebelum menggunakan script ini, pastikan Anda telah menjalankan perintah berikut, dan jangan lupa menggunakan sudo jika diperlukan.
 
 ```bash
-python3 --version
-pip install requests fake-useragent colorama selenium beautifulsoup4
+apt install python3
+apt install python3-pip
+pip3 install requests fake-useragent colorama selenium beautifulsoup4
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 dpkg -i google-chrome-stable_current_amd64.deb
 sudo mv chromedriver /usr/bin/chromedriver
